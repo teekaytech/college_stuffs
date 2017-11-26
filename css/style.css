@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */padding: 0;
+    text-align: center;
+    /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */color: #000000;
+  }
+
+
+p {
+    font-family : 'Arial', sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-variant : normal;
+  }
+
+
+li, td {
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+  }
+
+
+hr {
+    color: #3333cc;
+    width:100%;
+    text-align:left;
+  }
+
+
+a {
+    text-decoration: none !important;
+  }
+
+
+.myclass {
+    font-size: 9px;
+    text-align: center;
+  }
+
+
+.subhead {
+    font-weight: bold;
+  }
+
+
+.subsubhead {
+    font-style: italic;
+    font-weight: bold;
+  }
+
+
+.tb_row {
+    text-align: left;
+    text-indent: 0em;
+  }
+
+
+.icon {
+    vertical-align: middle;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    border: 0;
+  }
+
+
+.oneColFixCtr #container {
+    /* the auto margins (in conjunction with a width) center the page */border : 1px solid #000000;
+    /* this overrides the text-align : center on the body element. */;
+    /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */background : #FFFFFF;
+    margin-bottom : 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0;
+    text-align : left;
+    width : 900px;
+  }
+
+
+.oneColFixCtr #mainContent {
+    padding: 0 20px;
+    /* remember that padding is the space inside the div box and margin is the space outside the div box */;
+  }
+
+
+h2 {
+    font-family : 'Times New Roman', cursive;
+    font-size : 20px;
+    font-weight : bold;
+  }
+
+h1 {
+    font-family : 'Times New Roman', cursive;
+    font-size : 16px;
+    align-items: center;
+  }
+
+
+fieldset {
+    background-color : #ccccff;
+  }
